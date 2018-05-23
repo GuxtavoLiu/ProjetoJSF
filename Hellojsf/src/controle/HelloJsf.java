@@ -17,7 +17,7 @@ public class HelloJsf {
 
 	public void mostrarConsole() {
 
-		System.out.println();
+		System.out.println("O nome é: " + nomePessoa);
 
 	}
 
