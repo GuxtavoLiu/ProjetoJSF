@@ -8,17 +8,16 @@
 <body>
 	<h:form>
 		<h:outputText value="valor1" />
-		<h:inputText value="#{calculadora.valor1}" />
+		<h:inputText value="#{calculadora.calculo.valor1}" />
 		<br />
 		<h:outputText value="valor2" />
-		<h:inputText value="#{calculadora.valor2}" />
+		<h:inputText value="#{calculadora.calculo.valor2}" />
 		<h:outputText value="operador" />
-		<h:inputText value="#{calculadora.operador}" />
+		<h:inputText value="#{calculadora.calculo.operador}" />
 		<h:commandButton action="#{calculadora.calculadora()}"
 			value="Calcular" />
-
 	</h:form>
 	<br />
-	<h:outputText value="#{calculadora.valorFinal}" />
+	<h:outputText value="#{calculadora.calculo.valorFinal}" />
 </body>
 </html>
